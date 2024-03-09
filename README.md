@@ -13,25 +13,26 @@ The parameters are as follows:
 - **avg_epoch_time**, Value: 11819.33716046686
 - **avg_checkpoint_time**, Value: 0.7591855948170027
 
-You can use this project quickly：
-##Download this project：
+Quick Start Guide:
+==================
+## Download this project：
 ```
 git clone https://github.com/YKHC/llama2_emotion.git
 ```
-##Navigate to directory
+## Navigate to directory
 ```
 cd llama2_emotion
 ```
-##When you load the model you can add this sentence in your code：
+## When you load the model you can add this sentence in your code：
 ```
 from peft import PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer
 #model_id = "/Llama-2-7b-hf"
 #tokenizer = AutoTokenizer.from_pretrained(model_id)
 #model = AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=torch.float16)
-model = PeftModel.from_pretrained(model, "/emotion_analyze")
+model = PeftModel.from_pretrained(model, "/emotion_analysis")
 ```
-##Your prompt should be in this format:
+## Your prompt should be in this format:
 ```
 prompt = "Analyze the sentiment of this sentence:\n{}\n---\nSentiment:\n"
 ```
