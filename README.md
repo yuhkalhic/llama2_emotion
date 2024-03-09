@@ -33,9 +33,9 @@ cd llama2_emotion
 ```
 from peft import PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer
-#model_id = "/Llama-2-7b-hf"
-#tokenizer = AutoTokenizer.from_pretrained(model_id)
-#model = AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=torch.float16)
+model_id = "/Llama-2-7b-hf"
+tokenizer = AutoTokenizer.from_pretrained(model_id)
+model = AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=torch.float16)
 model = PeftModel.from_pretrained(model, "/emotion_analysis")
 ```
 ## Your prompt should be in this format:
