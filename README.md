@@ -1,7 +1,7 @@
 # llama2_emotion
 This project is based on llama2-7B-hf and is fine-tuned through the LoRA method.
 
-This parameter is mainly trained based on the three datasets of [HuggingFace](https://huggingface.co)'s [google/civil_comments](https://huggingface.co/datasets/google/civil_comments) and [dair-ai/emotion](https://huggingface.co/datasets/dair-ai/emotion). 
+This parameter is mainly trained based on the two datasets of [HuggingFace](https://huggingface.co)'s [google/civil_comments](https://huggingface.co/datasets/google/civil_comments) and [dair-ai/emotion](https://huggingface.co/datasets/dair-ai/emotion). 
 It can be used to analyze, identify and summarize the emotions contained in the text.
 
 The parameters are as follows:
