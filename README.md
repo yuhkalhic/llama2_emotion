@@ -23,7 +23,7 @@ cd /llama && bash download.sh
 You can click [here](https://llama.meta.com/llama-downloads) to apply for llama2
 ## Download this project：
 ```
-git clone https://github.com/YKHC/llama2_emotion.git
+git clone https://github.com/yuhkalhic/llama2_emotion.git
 ```
 ## Navigate to directory
 ```
