@@ -1,5 +1,5 @@
 # llama2_emotion
-Obtain parameters that can be used for emotional reasoning through LoRA
+This project is based on llama2-7B-hf and is fine-tuned through the LoRA method.
 
 This parameter is mainly trained based on the three datasets of [HuggingFace](https://huggingface.co)'s [google/civil_comments](https://huggingface.co/datasets/google/civil_comments) and [dair-ai/emotion](https://huggingface.co/datasets/dair-ai/emotion). 
 It can be used to analyze, identify and summarize the emotions contained in the text.
@@ -15,6 +15,12 @@ The parameters are as follows:
 
 Quick Start Guide:
 ==================
+## Download llama model：
+```
+git clone https://github.com/facebookresearch/llama.git
+cd /llama && bash download.sh
+```
+You can click [here](https://llama.meta.com/llama-downloads) to apply for llama2
 ## Download this project：
 ```
 git clone https://github.com/YKHC/llama2_emotion.git
